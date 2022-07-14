@@ -1,0 +1,15 @@
+*{margin:0; padding:0}
+ul,ol,dl{list-style:none}
+a{text-decoration:none; color:#222; display:block;}
+a:hover{color:#0066ad;}
+
+/*common*/
+.container{width:1200px; margin:0 auto}
+.d-flex{display:flex}
+.rel{position:relative}
+.abs{position:absolute}
+.w1200{width:1200px} /*슬라이더 때문에 넣음*/
+.h100{height:100;}
+.h200{height:200;}
+.h300{height:300;}
+.ofh{overflow:hidden}
