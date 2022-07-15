@@ -55,18 +55,19 @@
             </ul>
         </div>
     </div>
-
-    <div id="slide" class="container h300 ofh">
-        <ul class="slideAni d-flex">
-            <li class="w1200 h300"><img src="img/slide_1.jpg" alt="슬라이드1"></li>
-            <li class="w1200 h300"><img src="img/slide_2.jpg" alt="슬라이드2"></li>
-            <li class="w1200 h300"><img src="img/slide_3.jpg" alt="슬라이드3"></li>
-        </ul>
+<!-- #slideBox.w1200.h300.ofh>div#aniSlide>div*3?>img[src=img/slide_$.jpg][alt=배너$]-->
+    <div id="slideBox" class="container h300 ofh">
+        <div class="aniSlide d-flex">
+            <div class="s1"><img src="img/slide_1.jpg" alt="배너1"></div>
+            <div class="s2"><img src="img/slide_2.jpg" alt="배너2"></div>
+            <div class="s3"><img src="img/slide_3.jpg" alt="배너3"></div>
+        </div>
     </div>
 
-<!-- #slide.container.h300.ofh
-    div.slideAni.d-flex
-         div.w1200.h300*3>img    
+
+<!--.container>section.m-auto>h2+div#slide.container.h300.ofh
+    >ul#slideAni.d-flex
+         >li#event*3>h3+strong+div#box>ul>li*2>strong+span    
 #banners.container.h200
     #notice
         h3{공지사항}
